@@ -13,13 +13,14 @@
 }
 
 .item-x {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .container-y {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    /* align-items: flex-start; */
 }
 
 .item-y {
@@ -27,9 +28,11 @@
 }
 
 .container {
-    width: 60vw;
-    height: 60vh;
+    width: 65vw;
+    height: 65vh;
     margin: 0 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .fab {
@@ -39,4 +42,10 @@
 .honey {
     width: 70px;
     transform: translate(-10px);
+}
+
+.half {
+    width: 50%;
+    height: 100%;
+    margin: 0 20px;
 }
