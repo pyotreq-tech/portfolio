@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid black; */
+}
+
+.container-y {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item-y {
+    border: 1px solid black;
+}
