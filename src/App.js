@@ -2,6 +2,10 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
+import SocialNetwork from "./SocialNetwork";
+import ImageBoard from "./ImageBoard";
+import LyricsChat from "./LyricsChat";
+import Petition from "./Petition";
 
 function App() {
     return (
@@ -33,6 +37,18 @@ function App() {
                     <div className="container-y">
                         <div className="item-y container">
                             <Switch>
+                                <Route path="/Petition">
+                                    <Petition />
+                                </Route>
+                                <Route path="/LyricsChat">
+                                    <LyricsChat />
+                                </Route>
+                                <Route path="/ImageBoard">
+                                    <ImageBoard />
+                                </Route>
+                                <Route path="/SocialNetwork">
+                                    <SocialNetwork />
+                                </Route>
                                 <Route path="/contact">
                                     <Contact />
                                 </Route>
@@ -50,13 +66,21 @@ function App() {
                                 textOrientation: "use-glyph-orientation",
                             }}
                         >
-                            Social Network
+                            <Link to="/SocialNetwork">Social Network</Link>
                         </div>
                     </div>
                 </div>
                 <div className="container-x">
-                    <div className="item-x">Petition</div>
-                    <div className="item-x">Imageboard</div>
+                    <div className="item-x">
+                        <Link to="/Petition">Petition</Link>
+                    </div>
+
+                    <div className="item-x">
+                        <Link to="/LyricsChat">Lyrics Chat</Link>
+                    </div>
+                    <div className="item-x">
+                        <Link to="/ImageBoard">Imageboard</Link>
+                    </div>
                 </div>
             </div>
         </Router>
