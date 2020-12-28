@@ -12,11 +12,11 @@ function App() {
         <Router>
             <div className="main-container">
                 <div className="container-x">
-                    <Link to="/">
-                        <div className="item-x">About Me</div>
+                    <Link to="/" className="no-dec">
+                        <div className="item-x button">About Me</div>
                     </Link>
-                    <Link to="/contact">
-                        <div className="item-x">Contact</div>
+                    <Link to="/contact" className="no-dec">
+                        <div className="item-x button">Contact</div>
                     </Link>
                 </div>
                 <div
@@ -35,7 +35,10 @@ function App() {
                         </div>
                     </div>
                     <div className="container-y">
-                        <div className="item-y container">
+                        <div
+                            className="item-y container"
+                            style={{ height: "550px" }}
+                        >
                             <Switch>
                                 <Route path="/Petition">
                                     <Petition />
@@ -59,28 +62,30 @@ function App() {
                         </div>
                     </div>
                     <div className="container-y">
-                        <div
-                            className="item-y"
-                            style={{
-                                writingMode: "vertical-rl",
-                                textOrientation: "use-glyph-orientation",
-                            }}
-                        >
-                            <Link to="/SocialNetwork">Social Network</Link>
-                        </div>
+                        <Link to="/SocialNetwork" className="no-dec">
+                            <div
+                                className="item-y button"
+                                style={{
+                                    writingMode: "vertical-rl",
+                                    textOrientation: "use-glyph-orientation",
+                                }}
+                            >
+                                Social Network
+                            </div>
+                        </Link>
                     </div>
                 </div>
-                <div className="container-x">
-                    <div className="item-x">
-                        <Link to="/Petition">Petition</Link>
-                    </div>
+                <div className="container-x" style={{ marginTop: "10px" }}>
+                    <Link to="/Petition" className="no-dec">
+                        <div className="item-x button">Petition</div>
+                    </Link>
 
-                    <div className="item-x">
-                        <Link to="/LyricsChat">Lyrics Chat</Link>
-                    </div>
-                    <div className="item-x">
-                        <Link to="/ImageBoard">Imageboard</Link>
-                    </div>
+                    <Link to="/LyricsChat" className="no-dec">
+                        <div className="item-x button">Lyrics Chat</div>
+                    </Link>
+                    <Link to="/ImageBoard" className="no-dec">
+                        <div className="item-x button">Imageboard</div>
+                    </Link>
                 </div>
             </div>
         </Router>
