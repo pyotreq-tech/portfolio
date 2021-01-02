@@ -6,6 +6,7 @@ import SocialNetwork from "./SocialNetwork";
 import ImageBoard from "./ImageBoard";
 import LyricsChat from "./LyricsChat";
 import Petition from "./Petition";
+import ConnectFour from "./ConnectFour";
 
 function App() {
     return (
@@ -52,6 +53,9 @@ function App() {
                                 <Route path="/SocialNetwork">
                                     <SocialNetwork />
                                 </Route>
+                                <Route path="/ConnectFour">
+                                    <ConnectFour />
+                                </Route>
                                 <Route path="/contact">
                                     <Contact />
                                 </Route>
@@ -71,6 +75,17 @@ function App() {
                                 }}
                             >
                                 Social Network
+                            </div>
+                        </Link>
+                        <Link to="/ConnectFour" className="no-dec">
+                            <div
+                                className="item-y button"
+                                style={{
+                                    writingMode: "vertical-rl",
+                                    textOrientation: "use-glyph-orientation",
+                                }}
+                            >
+                                Connect Four
                             </div>
                         </Link>
                     </div>
