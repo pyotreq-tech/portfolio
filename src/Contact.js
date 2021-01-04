@@ -3,6 +3,9 @@ function Contact() {
         <>
             <div className="half">
                 <div>
+                    <h2>I invite you to contact and cooperation:</h2>
+                </div>
+                <div>
                     <i class="fas fa-mobile-alt"></i>
                     +49 15205650396
                 </div>

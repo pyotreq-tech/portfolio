@@ -72,3 +72,11 @@
 .no-dec {
     text-decoration: none;
 }
+
+p {
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
