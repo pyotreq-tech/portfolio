@@ -18,26 +18,27 @@ function ImageBoard() {
 
                 <p>
                     Online gallery of pictures. Add photos, descriptions and
-                    tags. Multiple options of display.
+                    tags. Multiple options of display and sorting. Limit of
+                    maximum file weight, navigation and hash routing.
                 </p>
                 <p>
-                    Technologies
+                    Technologies:
                     <ul>
                         <li>Javascript with HTML and CSS</li>
                         <li>Node.js</li>
                         <li>Vue.js</li>
                         <li>PostgreSQL</li>
-                        <li>API</li>
-                        <li>State Management (Redux)</li>
-                        <li>Socket.IO</li>
+                        <li>AWS</li>
                     </ul>
                 </p>
                 <p>
+                    Hover over here to see preview
+                    <br />
                     <a
                         href="https://pyotreq-city-board.herokuapp.com/"
                         target="_blank"
                     >
-                        <i class="far fa-eye"></i> Check it
+                        or click here to <i class="far fa-eye"></i> it yourself
                     </a>
                 </p>
             </div>

@@ -2,7 +2,7 @@ function ConnectFour() {
     return (
         <>
             <div className="half">
-                <img src="./petition.JPG" style={{ width: "450px" }} />
+                <img src="./connectfour.JPG" style={{ width: "450px" }} />
             </div>
             <div
                 className="half"
@@ -14,31 +14,29 @@ function ConnectFour() {
                     alignItems: "center",
                 }}
             >
-                <h2>ConnectFour</h2>
+                <h2>Connect Four</h2>
 
                 <p>
-                    Great cause? If you need some signatures, this place is for
-                    you. Register, get familiar with the case and support it
-                    with tens, hunderds or thousands of others.
+                    My version of a popular two-player connection board game in
+                    which you take turns dropping colored discs into a grid. You
+                    can dynamicly choose number of columns and number of discs
+                    necessary to win. Player indicators will help to navigate
+                    through a game.
                 </p>
                 <p>
                     Technologies
                     <ul>
                         <li>Javascript with HTML and CSS</li>
-                        <li>Node.js</li>
-                        <li>Vue.js</li>
-                        <li>PostgreSQL</li>
-                        <li>API</li>
-                        <li>State Management (Redux)</li>
-                        <li>Socket.IO</li>
                     </ul>
                 </p>
                 <p>
+                    Hover over here to see preview
+                    <br />
                     <a
-                        href="https://pyotreq-petition.herokuapp.com/"
+                        href="https://pyotreq-connect-four.herokuapp.com/"
                         target="_blank"
                     >
-                        <i class="far fa-eye"></i> Check it
+                        or click here to <i class="far fa-eye"></i> it yourself
                     </a>
                 </p>
             </div>
