@@ -8,39 +8,37 @@ function Petition() {
                 className="half"
                 style={{
                     padding: "15px",
-                    backgroundColor: "CADETBLUE",
+                    backgroundColor: "#27292b",
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
+                    boxShadow: "0px 2px 8px 2px #000000",
                 }}
             >
-                <h2>Petition</h2>
-
-                <p>
-                    Great cause? If you need some signatures, this place is for
-                    you. Register, get familiar with the case and support it
-                    with tens, hunderds or thousands of others.
-                </p>
-                <p>
-                    Technologies
-                    <ul>
-                        <li>Javascript with HTML and CSS</li>
-                        <li>Node.js</li>
-                        <li>Vue.js</li>
-                        <li>PostgreSQL</li>
-                        <li>API</li>
-                        <li>State Management (Redux)</li>
-                        <li>Socket.IO</li>
-                    </ul>
-                </p>
-                <p>
-                    <a
-                        href="https://pyotreq-petition.herokuapp.com/"
-                        target="_blank"
-                    >
-                        <i class="far fa-eye"></i> Check it
-                    </a>
-                </p>
+                <div className="half-description">
+                    <h2>Petition</h2>
+                    <p>
+                        Great cause? Ideal place to collect some signatures.
+                        Register, get familiar with the case and support it with
+                        tens, hunderds or thousands of others. Registration and
+                        login pages, list of other subscribers and possibility
+                        to withdraw your signature.
+                    </p>
+                    <h3>Technologies:</h3>
+                    <p>
+                        Javascript with HTML and CSS, Node.js, Express
+                        Handlebars, PostgreSQL
+                    </p>
+                    <p>
+                        <h3>Preview:</h3>
+                        <a
+                            href="https://pyotreq-petition.herokuapp.com/"
+                            target="_blank"
+                        >
+                            Click here to <i class="far fa-eye"></i> it yourself
+                        </a>
+                    </p>
+                </div>
             </div>
         </>
     );

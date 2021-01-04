@@ -11,35 +11,33 @@ function AboutMe() {
                 className="half"
                 style={{
                     padding: "15px",
-                    backgroundColor: "CADETBLUE",
+                    backgroundColor: "#27292b",
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
+                    boxShadow: "0px 2px 8px 2px #000000",
                 }}
             >
-                <h2 style={{ margin: "0px" }}>Welcome</h2>
-                <h3>I am Piotr</h3>
-                <p>
-                    Full stack web developer in Berlin. Privately I am
-                    interested in travelling, computer games, new technologies
-                    and modern world high-rise architecture.
-                </p>
-                <p>
-                    I have experience with:
-                    <ul>
-                        <li>Javascript with HTML and CSS</li>
-                        <li>Node.js</li>
-                        <li>React.js</li>
-                        <li>PostgreSQL</li>
-                        <li>3rd party API</li>
-                        <li>GIT</li>
-                        <li>State Management (Redux)</li>
-                        <li>Web Sockets</li>
-                    </ul>
-                </p>
-                <p>
-                    Check out my projects on the right and bottom of the page.
-                </p>
+                <div className="half-description">
+                    <h2>Welcome</h2>
+                    <h3>I am Piotr</h3>
+                    <p>
+                        Full stack web developer in Berlin. Privately I am
+                        interested in travelling, computer games, new
+                        technologies and modern world high-rise architecture.
+                    </p>
+                    <h3>Technologies:</h3>
+
+                    <p>
+                        Javascript with HTML and CSS, Node.js, Vue.js, React.js,
+                        PostgreSQL, 3rd party API, GIT, State Management
+                        (Redux), Web Sockets
+                    </p>
+                    <h3>
+                        Check out my projects on the right and bottom of the
+                        page.
+                    </h3>
+                </div>
             </div>
         </>
     );

@@ -26,14 +26,24 @@ function App() {
                 >
                     <div className="container-y">
                         <div className="item-y">
-                            <i className="fab fa-linkedin"></i>
+                            <a
+                                href="https://www.linkedin.com/in/piotr-majtyka-9b6bba182/"
+                                target="_blank"
+                            >
+                                <i className="fab fa-linkedin"></i>
+                            </a>
                         </div>
                         <div className="item-y">
-                            <i class="fab fa-github"></i>
+                            <a
+                                href="https://github.com/pyotreq-tech"
+                                target="_blank"
+                            >
+                                <i class="fab fa-github"></i>
+                            </a>
                         </div>
-                        <div className="item-y">
+                        {/* <div className="item-y">
                             <img src="./logo-bear.svg" className="honey" />
-                        </div>
+                        </div> */}
                     </div>
                     <div className="container-y">
                         <div

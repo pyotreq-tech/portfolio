@@ -54,6 +54,12 @@
     height: 500px;
     margin: 0 20px;
 }
+.half-description {
+    background-color: #424446;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
 
 .button {
     background-color: #27292b;
@@ -79,4 +85,8 @@ p {
 
 h2 {
     margin-bottom: 0px;
+}
+
+a {
+    color: black;
 }

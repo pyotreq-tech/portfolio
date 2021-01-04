@@ -8,40 +8,37 @@ function LyricsChat() {
                 className="half"
                 style={{
                     padding: "15px",
-                    backgroundColor: "CADETBLUE",
+                    backgroundColor: "#27292b",
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
+                    boxShadow: "0px 2px 8px 2px #000000",
                 }}
             >
-                <h2>Lyrics Chat</h2>
-
-                <p>
-                    Meeting new people has not been easier than before. You are
-                    speachless? No problem, you are given your favourite artists
-                    and their songs as your backup. By communicating with API it
-                    gives you endless possibilities for the conversations.
-                </p>
-                <p>
-                    Technologies
-                    <ul>
-                        <li>Javascript with HTML and CSS</li>
-                        <li>Node.js</li>
-                        <li>Vue.js</li>
-                        <li>PostgreSQL</li>
-                        <li>API</li>
-                        <li>State Management (Redux)</li>
-                        <li>Socket.IO</li>
-                    </ul>
-                </p>
-                <p>
-                    <a
-                        href="https://pyotreq-city-board.herokuapp.com/"
-                        target="_blank"
-                    >
-                        <i class="far fa-eye"></i> Check it
-                    </a>
-                </p>
+                <div className="half-description">
+                    <h2>Lyrics Chat</h2>
+                    <p>
+                        Online messenger with a music lyrics twist. Allow users
+                        to browse through Online profiles and communicate using
+                        words from their favourite songs. Allows to identify the
+                        album and song origin of each line and delivers charts
+                        of most popular artists, albums, songs and phrases.
+                    </p>
+                    <h3>Technologies:</h3>
+                    <p>
+                        Javascript with HTML and CSS, Node.js, Vue.js,
+                        PostgreSQL, AWS
+                    </p>
+                    <p>
+                        <h3>Preview:</h3>
+                        <a
+                            href="https://lyrics-talk.herokuapp.com/"
+                            target="_blank"
+                        >
+                            Click here to <i class="far fa-eye"></i> it yourself
+                        </a>
+                    </p>
+                </div>
             </div>
         </>
     );
